@@ -17,6 +17,9 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.position-relative {
+    position: relative;
+}
 a, a:visited, a:hover {
     text-decoration: none;
 }
@@ -180,6 +183,39 @@ a, a:visited, a:hover {
     margin: 100px 0;
 }
 /* DISCOUNT SECTION ENDS */
+
+/* BIRTHDAY SECTION STARTS */
+.birthday {
+    background-color: #E554730D;
+    padding: 100px 0;
+}
+.birthday .birthday-header {
+    margin-bottom: 32px;
+}
+.birthday .birthday-card {
+    width: 25%;
+}
+.birthday .birthday-card .birthday-card-image {
+    padding: 40px;
+}
+.birthday .birthday-card .birthday-card-image img {}
+.birthday .birthday-card-arrow {
+    position: absolute;
+    font-size: 40px;
+    border-radius: 8px;
+    color: #E55473;
+    cursor: pointer;
+}
+.birthday .right {
+    right: -40px;
+}
+.birthday .left {
+    left: -40px;
+}
+.birthday .birthday-btn {
+    margin-top: 30px;
+}
+/* BIRTHDAY SECTION ENDS */
 
 /* INSTAGRAM SECTION STARTS */
 .instagram {
